@@ -7,10 +7,22 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.visibility-style{
+    background-color: #FFF;
+    border: 6px solid #c27956;
+}
+
+
+.f-size-visibility{
+    color: #F3976C;
+    font-size: 20px;
+    font-weight: 900;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -66,10 +78,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -91,7 +103,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/img_logo_texture/texture-paper.png");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -343,7 +355,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -404,7 +416,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    background: none;
     display: block;
     padding: 14px 15px;
 }
@@ -431,7 +443,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0;
     float: right;
 }
 
@@ -461,7 +473,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -476,11 +488,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -651,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -677,7 +689,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -692,7 +704,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -700,6 +712,7 @@ p {
 }
 
 .social {
+    font-size: 30px;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -710,10 +723,12 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
+    margin: 0% 10px;
+
 }
 
 .med-width-whitespace {
@@ -723,11 +738,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -735,9 +750,10 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.txt-black {
+    color: #040404;
 }
+
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -753,13 +769,13 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #FFF;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -775,54 +791,54 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff ;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
-    background-image: url("img/img_logo_texture/dots-bg.png");
+    background-image: url("./img/img_background/la-chouette-agence-banniere.jpg");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/img_logo_texture/lines-h2-bg.png");
+    background-image: url("./img/img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/img_background/la-chouette-agence-banniere.jpg");
+    background-image: url("./img/img_background/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("./img/img_background/image-de-presentation.jpg");
+    background-image: url("img/img_background/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -839,7 +855,7 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 992px) and (min-width: 400px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -860,7 +876,7 @@ h4 {
     }
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -887,7 +903,7 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-}
+} */
 
 @media (max-width: 767px) {
     .page-container {
@@ -902,8 +918,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -911,7 +927,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        float: none;
     }
     .navbar.row {
         margin-left: 0;
@@ -936,7 +952,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
@@ -1026,17 +1042,24 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
+    img {
+        margin: auto;
+     }
+ 
+     .social{
+         display: flex;
+         justify-content: space-between;
+         margin-top: 20px;
+     }
+ 
+     .img-cell{
+         height: 100%;
+         width: 100%;
+     }
+ 
+     p{
+         font-size: 15px;
+     }
+ 
 }
