@@ -713,6 +713,7 @@ h4 {
 .bg-presentation {
   background-image: url(img/img_background/image-de-presentation.jpeg);
 }
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -734,16 +735,12 @@ h4 {
     max-width: 100%;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .b-parallax {
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
+    text-align: center;
   }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .b-parallax {
-    background-attachment: scroll;
-  }
-}
+
+
 @media (max-width: 767px) {
   .page-container {
     overflow-x: hidden;
@@ -761,7 +758,8 @@ h4 {
     padding-right: 10px;
   }
   .b-parallax {
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
+    color: #000;
   }
   .navbar .nav {
     padding-top: 0;
